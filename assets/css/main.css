@@ -133,14 +133,14 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #00b4d9;
+  background-color: #f1c40f;
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background-color: #21cff3;
+  background-color: #e6b800;
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
