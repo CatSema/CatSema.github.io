@@ -224,12 +224,16 @@ button:focus {
   background: #D6274D;
 }
 
-.social-icon li .linkedin:hover {
+.social-icon li .vkontakte:hover {
   background: #1260A2;
 }
 
-.social-icon li .google:hover {
-  background: #CE332A;
+.social-icon li .pinterest:hover {
+  background: #af2b24;
+}
+
+.social-icon li .spotify:hover {
+  background: #06b80f;
 }
 
 /* ScrollToTop */
