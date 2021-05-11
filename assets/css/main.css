@@ -236,6 +236,10 @@ button:focus {
   background: #04920b;
 }
 
+.social-icon li .telegram:hover {
+  background: #549de6;
+}
+
 /* ScrollToTop */
 a.back-to-top {
   display: none;
