@@ -1,16 +1,9 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--tg-theme-text-color);
-    background-color: var(--tg-theme-bg-color);
+    background-color: var(--tg-theme-header-bg-color);
     margin: 0;
     padding: 0;
-}
-
-header {
-    color: var(--tg-theme-accent-text-color);
-    background-color: var(--tg-theme-header-bg-color);
-    padding: 20px;
-    text-align: center;
 }
 
 h1 {
@@ -119,12 +112,4 @@ main {
 
 .category h3 {
     margin: 0;
-}
-
-footer {
-    color: var(--tg-theme-accent-text-color);
-    background-color: #2f2f2f;
-    padding: 20px;
-    text-align: center;
-    gap: 32px;
 }
