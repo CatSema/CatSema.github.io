@@ -106,16 +106,6 @@
 <script>
     let tg = window.Telegram.WebApp; //получаем объект webapp телеграма
     tg.expand(); //расширяем на все окно 
-
-    var BackButton = WebApp.BackButton;
-    BackButton.show();
-    BackButton.onClick(function () {
-        WebApp.showAlert("Нет пути назад!");
-        BackButton.hide();
-    });
-    WebApp.onEvent('backButtonClicked', function () {
-        WebApp.showAlert("Нет назад!");
-    });
 </script>
 
 </html>

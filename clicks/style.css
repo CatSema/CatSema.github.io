@@ -1,21 +1,9 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #f0f0f0;
-    background-color: #161616;
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-header-bg-color);
     margin: 0;
     padding: 0;
-}
-
-header {
-    color: #f0f0f0;
-    background-color: #161616;
-    padding: 20px;
-    text-align: center;
-}
-
-header a {
-    color: #f0f0f0;
-    text-decoration: none;
 }
 
 h1 {
@@ -67,12 +55,4 @@ main {
 .category h3 {
     display: none;
     margin: 0;
-}
-
-footer {
-    color: #f0f0f0;
-    background-color: #2f2f2f;
-    padding: 20px;
-    text-align: center;
-    gap: 32px;
 }
