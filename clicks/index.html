@@ -1,111 +1,206 @@
 <!DOCTYPE html>
 <html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CoinWay</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://telegram.org/js/telegram-web-app.js"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoinWay</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-</head>
+	<body>
+		<main>
+			<section class="categories">
+				<h2>Проекты</h2>
+				<div class="category-grid">
+					<a
+						href="https://t.me/notcoin_bot"
+						class="category"
+						style="background-image: url('/img/icons/clicks/notcoin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Gatto</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/theYescoin_bot/Yescoin?startapp=bnn6sk"
+						class="category"
+						style="background-image: url('/img/icons/clicks/the-yescoin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Yes Coin</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/memefi_coin_bot?start=r_477c5c645f"
+						class="category"
+						style="background-image: url('/img/icons/clicks/memefi-coin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Lime Coin</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/wormfare_slap_bot?start=r_721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/wormfare-slap.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Meme Fi</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/hamster_kombat_bot?start=kentId721869889"
+						class="category"
+						style="
+							background-image: url('/img/icons/clicks/hamster-kombat.jpg');
+						"
+					>
+						<div class="category-backgraund">
+							<h3>TapSwap</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/tapswap_mirror_bot?start=r_721869889"
+						class="category"
+						style="
+							background-image: url('/img/icons/clicks/tapswap-mirror.jpg');
+						"
+					>
+						<div class="category-backgraund">
+							<h3>True Coin</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/true_coin_bot?start=721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/true-coin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>The Pixel</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/dotcoin_bot?start=r_721869889_1001475624431"
+						class="category"
+						style="background-image: url('/img/icons/clicks/dotcoin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Coins Gem</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/wmclick_bot/click?startapp=ref_axrkZtdW_squad_dobry_party_chat"
+						class="category"
+						style="background-image: url('/img/icons/clicks/wmclick.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>WormFare</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/OfficialLimeCoinBot?start=721869889"
+						class="category"
+						style="
+							background-image: url('/img/icons/clicks/official-lime-coin.jpg');
+						"
+					>
+						<div class="category-backgraund">
+							<h3>Hamster Kombat</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/TomClicker_bot?start=721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/tom-clicker.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>BitTon</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/onchaincoin_bot?start=user_721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/onchain-coin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Catizen</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/bittonapp_bot?start=uehchyni"
+						class="category"
+						style="background-image: url('/img/icons/clicks/bittonapp.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/getcapybot/now?startapp=NzIxODY5ODg5fGViODA3OWY1LTdlY2QtNGZjNy1hMjg3LWU4OGZjZTFhZjRiNg=="
+						class="category"
+						style="background-image: url('/img/icons/clicks/getcapy.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/trumpcatbot?start=f9180fd9-ac80-4b81-b7e5-d1ca90c14155"
+						class="category"
+						style="background-image: url('/img/icons/clicks/trumpcat.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/YesCoin_ebot?start=721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/yes-coin.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/mnemonic_game_bot/start?startapp=ref_721869889"
+						class="category"
+						style="background-image: url('/img/icons/clicks/mnemonic-game.jpg')"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+					<a
+						href="https://t.me/cubesonthewater_bot?start=NzIxODY5ODg5"
+						class="category"
+						style="
+							background-image: url('/img/icons/clicks/cubes-onthewater.jpg');
+						"
+					>
+						<div class="category-backgraund">
+							<h3>Tap Fantasy</h3>
+						</div>
+					</a>
+				</div>
+			</section>
+		</main>
+	</body>
 
-<body>
-    <main>
-        <section class="categories">
-            <h2>Проекты</h2>
-            <div class="category-grid">
-                <a href="https://t.me/gatto_gamebot?start=721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/qzaes3SgVnS3sFSV8NhRBEKSDMSFhbqZWc5Bf4WtyGDRk8a4wj45ABhdkQ7FlEfvugVB_JxHMmf0LNuoT591VdaCCq7SDLxN28oDeyrTFr1yjx8nvjcQOJckoey7J1T56xeYHSW2bNO5n6_ZBeAQLl8nn7pjvL1f6or3NJvD4sia9t-4aqCw3gMjIDMGfCxvyILGQrL6fbC7jEhz1Hz6bO-GseI24A31ZNkGS1TGACP0ug33AJnNYiz0jvnFfoMCqCiUdHKR1IbqmjhOPJIdJRQFbhrOTaOpOS2oR8skSHsYxGs8HGeOe2FD0Yc2xkpG-sJo0uRgPgZNCj1ngSp8yQ.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Gatto</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/theYescoin_bot/YesCoin?startapp=bnn6sk" class="category"
-                    style="background-image: url('https://cdn5.cdn-telegram.org/file/Jch3r6Ej_YG1KtPae1Cz7vZWxoJF3nrqI8PehHXA6hctn8gMBKUN6Kum2BcZLj-NxnLPSB_i96ZJWZO174ysQJouB9Ert2-OoYq8xkcTDFNxQu5SjZLmegArJl4Yu-iiBDt7goeedYiY3oZFnF-PCrswEzveeEJghwHXDCiB0-4G1m2I_LNaAjy8NKnhAOwh-rezyA4evMOA-1SxSwyFIEaoR1QQpiXfjyrJaM0NEE6e5Hz9qnJhha1MQgjidFzA7cLK8DRl4sn0lW2vp-4MeAZo9qeif4_kOpVpOh5x1g_CZ4YaZOvlGNvp6V2ivCwN9OhO9O6z10VhQN75CrsLOA.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Yes Coin</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/OfficialLimeCoinBot?start=721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/oNuzsKKsrcaGpi7YYcQzRiD-hKTi0ViV6BLyMm3VHw1hGh8TWJxzxWBOEQDta7bJHObeJMw2-MQTtT9bB3WdGm8KuaXCLxSZ60vCK-mLlaGXVtSDiO4EpR6xi-cn8aDxX5K4PtI02fZ-4jODsmnmPaO2Z2A2pMzUdrqfj_FWXpW0uVquODKQ61UCVlAJj58LxnY-N2xds8AQrJNSI7aB1v4meopl8M3mbHVwYMsx1gfDK9XuluiIqW0N3FhmfpaxyweWQFsz4fo1bJeBNlHYMSa63-K9da8qvSjMlaVLNza6QWEvJO4XNyIKskIqSfTN0PC_MchM41nI1Ai533BEZA.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Lime Coin</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/memefi_coin_bot?start=r_477c5c645f" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/dPWSY8ZnV56uUi_W4_0AvZZKV7Y-tzx6Rpmi2BzFUbVd-WfUTWcMmNkqDQIRVVcBWcOhL9rA_DIFaqi0OFzhaLYKiKf5sieAQ07cTE-uroPq3PpbGQsj6zABDtdReK59Y54Kroa52-yjMboomZG7hzXX-N9-xOUi2BDdUhAJfinh3A-Uwr3_iQ3GFi3JXADxNLxWls5SxhnbIxEUS93WIRgjJXkWiqGMr6TDmrgVeDAtOmgD1XDlk8MhF5c46oC8gWlU32eXPsgzuVCdNkwfML1_0pqKDwuPBW9HsXiknY5WlftKcu5mDrGkIZ__z5USMV2eieTjXuOshYb9RdxW2A.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Meme Fi</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/tapswap_bot?start=r_721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/QZ8B55lAjFrX1kTNYVv-gYGjgI-q0F5oW-4BsRfx-EtEVXALBL1jluZ8rsbPTAjwAEDb_esYZ8HTetbNsD5scrQqGNqW9QUyc5ybBnk1vv-A0rDEX3oAAbCKgBHxQk563WohTm2kA1QmvrGY5iLTvEI30-QVkKJsMG8zWCOu-mW5AgeOMYs3sr71pBIDcDyeoU0G5uTGrmerJdesW2Wl0rJ3sZ7HEsL6z8Tb6EjVldsQpFOBMcKhoICG3MYxGvuKQsdmeiaCia0cEZuoPCDLx2O3-0Ei2m4U5toDltD7Bn5BzMvessMS0c0mjuO1jjQa03L_pEU98h-HfHajnvdHtQ.jpg');">
-                    <div class="category-backgraund">
-                        <h3>TapSwap</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/true_coin_bot?start=721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/pTGA1v3WmhqrJCULV6Ozk7C03gsA4v4IylEEOoPFQT1FjUVBWdRk1bGo0iH8sAmwcDLP8R9e_rCeUAZdz3gwEharNv_q3GMv7qlDtG5ZFod0IpcGP-UVONiDCkn3CKx71I3408nRIv3EHR78x6pbKVUJ2GRbpgp1a34MV_7fGvJvjigregRqr3oiUaukEVQiR7SfOaMFF_d1CIOvkNPhsxqTmeznNTV7Js3suZqSLJZuFagyFqdu83F2XGPErMpHNAas15xdasWqbhCmuhWyDERDo-dDRPkjQV031Tc-CYxfeezjKkZYTQcFgfUiUbMHuBBL93Fhs28mc7zS6YUklg.jpg');">
-                    <div class="category-backgraund">
-                        <h3>True Coin</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/the_pixels_bot/play?startapp=0_2f466c74-83fc-40b0-b157-027276071393_2_fallback-invite"
-                    class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/Ss2x03H8_IFhu8jjuUek6y4f9vL4PC1Fu5sYExB9AuWAqlumi6boG7oW3p8eYQ9Uw_g8qcdS9Fp8uqmdeKmw45ma43J8Mg7l70_Wp2iXYjWV40A5fnuLgCauPU0RLppoYG0QyerqHLIZuInsbCCPGn44jSBuyFWptHxANfhj-LdIEm6F_GZswg8wVjMiy7qTNYW8KLQcsOh7Cm1n3vbxoMH3qJI57DcHMiiHN6-z2ZXMyVYWFk44SzIb8QX_HIMuOXBaQw10KpMRoso2gzhL9FAtMRVDwib-oT0Wn2H9S9edZ0603XaWOO7NZjKofY_nry0x8t37Ynb1-qzuFohs8w.jpg');">
-                    <div class="category-backgraund">
-                        <h3>The Pixel</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/coinsgem_miner_bot?start=rp_721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/dsiVHrspSNQDVd0gOGAenccx9Azc8nF_3KDraepU1pL-l7FxZ_y7TGZQELjilZHUkhNjd-DRLkClONopg-KOSSrPN4da8PdbusjTdGZWxishJxiVlGkR0ZNJuE8aaSKRrxxuJUfFIfzyOjGCHGCI2O5IGbi5LJSC5-lurW4O4r3dTBAvQpqMJAlS0SRXoABu2PbCvivr5na0q_dY6UEGfS7sl_DfFPZ8b0gqw9_NmVHKAEMV6HRuKa_-8tiL43qtR0nOFT9byrf_-_3jKehXmKk8xeQqKJ7DPnARViTE-bPt-P9DFXriQPOlD67Lt-lQls8UnSvukHqqZ7NYBw7OCg.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Coins Gem</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/wormfare_slap_bot?start=r_721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/QvwgTFM96G20Qg2g6wLCmv72u0ninebbU92IpUgn0Qr8AO3w7w8Y4p-1WFl31_fc5ysKKYcDEN5cJP5onXF6Qmp_iK99Tf7shw2_KgYeedalzIz5i2KaaftPW85nEDHMczfspZiRnRTQ2XVab7gmAVsCCYNHpvI-8FlraiWUOmLZOeef-3OW88BaOoW-bcM3j8Pnm-alluKBxiNfy1aw5uEKlQvsBETd1lhUi4McoMmV6eInNeRJibpZZEltcgaJu1sePpyW-hIhb2moh1oLJQIgF4lbt1XXh95y2_Ap0pT7c40eBMvGYzY3J0T7erQUNxPIQVzyfsqEs4WpCKepvA.jpg');">
-                    <div class="category-backgraund">
-                        <h3>WormFare</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/hamster_kombat_bot?start=kentId721869889" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/RZpaXea30T4ENMxudvtpQ5ixVgFMHf9kTrvAbt5-i6roKRIfdU4CxW95V0BsHx0JRs8WQ2GPa_NwSv-bHtZ5etXrHWQX4tKc_6SDqHacbr3H0b1yhPFEW4b3WMAz_wCD3buLVoTNM9jQEV1v_4W3CbhO0sBo2k7Glbumk_xA6Tw8clF9IFarzZ_QF81dol7yM5PdHmP5qmZk0G3_hI1A4nnCceIO1_TQjhHbHYoa4DSz-SIV3H7Yo6P5qL85KwkbQiC3ERpN-oebJh7x8xrT3tNmT6uax-8-R0G2yYBkOvlil7GRNx0jbEJVlrNLIiFUFVfV51NTFn5yg9Qsz3fX2A.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Hamster Kombat</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/bittonapp_bot?start=uehchyni" class="category"
-                    style="background-image: url('https://cdn1.cdn-telegram.org/file/EvnHfuTNy_o9Q-svIKoKT6APg6aY-qZWN286XKViToRZqH_DWSky6MpwlyOkw-xE-pcXCTZ68XzmT4evLPCG60YbPuRVgGK1dlLXZYOdH2r9o2jslmk15KBZhgVFVXsunckIsdwmVg977xX26TAOk3Ev5njd1DsywjU_PoOVxucdA5eSo7bfkg9PfE9IpknDoziW8YekMtSYXDIUhaV2ICPMF7u5WNxlNKH4G37W0OGPE7tgPHvdkuGtlbudFRVWAjctIgoiU-EBW7aUnQgyXYuewIypUfIvNckUKwMhlWYu2fKDbVlsbTW-DkOAefXvWKP9Tajq4tDzwZAHXQcw7g.jpg');">
-                    <div class="category-backgraund">
-                        <h3>BitTon</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/catizenbot?start=rp_1303748" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/lrQNT9y5KvAzFqCg5AjK0hzQiqLCAJ7ItpyP0BKyV0Zd1gNGWpvmYsUEOmhOo26AMQfm7EPBgYCMMcAmqi_qRPEDrgh3MiAenZAQsvEeqVHcsXxTriZAied1-PjHFIVZQUeUx7pQQyoBGzCZj2cA-9Jzl4a0xN7UQl_FrhwCWJwzGy32DnATXgppP8WduWSWXU1CWXCiloR6bFWp4bxkYb9_SIrWj-we148bATUNKbL7VW7JxkxIPiCIvxKOsV35avTJKWTM5o-TI7mEfZU5A3OUGCzVF0-BlAiDINI5pkv1-ZI8u76RRY4q6SzTiLj_UP_O_4jxGykpolSLQCDHVg.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Catizen</h3>
-                    </div>
-                </a>
-                <a href="https://t.me/TapFantasyGameBot?start=2YZjsA1n4v1MNjUPFtt8P" class="category"
-                    style="background-image: url('https://cdn4.cdn-telegram.org/file/Af_RskaMlQjqPpxtClpxtqlyo5QcsX0HJDI-9-9tzB4HwaHIqvAR-5pwKEIOHkgx21PecdMxFAZBJ_vhLHL3ow3TREs6FXvzg_BAj2_LMxHLbatoMlp3HaO6O6auI2fbWp10RasaBf4D08C0OJ8sMoLBta8VMhixTsXnbM59kNwfOPZzC-LUFV_Wkvct42FDDxzNg6AspN2XQhfm_u2TfScFoU3cJnm2Cn1dzF_TOijDZ-yLrEO8cnSrqyMrotOZEwFRddjt90HNnby_cUdTHgBbZ9_IAi7nqrGN6QjiPQBHdhTeQGf-W-qGhxWe6PaVnasQ6qxL2SaZnrO0QSKhCg.jpg');">
-                    <div class="category-backgraund">
-                        <h3>Tap Fantasy</h3>
-                    </div>
-                </a>
-            </div>
-        </section>
-    </main>
-</body>
-
-<script>
-    let tg = window.Telegram.WebApp; //получаем объект webapp телеграма
-    tg.expand(); //расширяем на все окно 
-</script>
-
+	<script>
+		let tg = window.Telegram.WebApp //получаем объект webapp телеграма
+		window.Telegram.WebApp.ready()
+		window.Telegram.WebApp.BackButton.show()
+		window.Telegram.WebApp.BackButton.onClick(function () {
+			window.location.href = '/play'
+		})
+		tg.expand() //расширяем на все окно
+	</script>
 </html>
