@@ -1,115 +1,115 @@
 body {
-    font-family: "Roboto", sans-serif;
-    color: var(--tg-theme-text-color);
-    background-color: var(--tg-theme-header-bg-color);
-    margin: 0;
-    padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: var(--tg-theme-text-color);
+	background-color: var(--tg-theme-header-bg-color);
+	margin: 0;
+	padding: 0;
 }
 
 h1 {
-    margin: 0;
+	margin: 0;
 }
 
 main {
-    padding: 20px;
+	padding: 20px;
 }
 
 .categories {
-    font-size: 24px;
-    text-align: center;
+	font-size: 24px;
+	text-align: center;
 }
 
 .category-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
 }
 
 .category-clicks {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/polygami_poster_big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/clicks_.png');
+	background-size: cover;
 }
 
 .category-games {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/deversee_poster_big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/games_.png');
+	background-size: cover;
 }
 
 .category-airdrop {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/parking_jam_poster_big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/air_.png');
+	background-size: cover;
 }
 
 .category-miners {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/education-level-poster-big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/miners_.png');
+	background-size: cover;
 }
 
 .category-nft {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/haken_poster_big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/nft_.png');
+	background-size: cover;
 }
 
 .category-static {
-    font-size: 28px;
-    text-decoration: none;
-    color: #f0f0f0;
-    display: block;
-    padding: 0px;
-    border-radius: 20px;
-    background-image: url('img/background/ivan_durnev_gameverse_poster_big.webp');
-    background-size: cover;
+	font-size: 28px;
+	text-decoration: none;
+	color: #f0f0f0;
+	display: block;
+	padding: 0px;
+	border-radius: 20px;
+	background-image: url('img/background/ivan_durnev_gameverse_poster_big.webp');
+	background-size: cover;
 }
 
 .category-backgraund {
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: inherit;
-    background-color: rgba(255, 255, 255, 0.01);
-    backdrop-filter: blur(20px);
-    aspect-ratio: 16 / 9;
+	border: 1px solid #ccc;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: inherit;
+	background-color: rgba(255, 255, 255, 0.01);
+	aspect-ratio: 16 / 9;
 }
 
 .category-backgraund:hover {
-    transform: scale(1.02);
+	transform: scale(1.02);
 }
 
 .category-backgraund:active {
-    transform: scale(0.95);
+	transform: scale(0.95);
 }
 
-.category h3 {
-    margin: 0;
+.category-backgraund h3 {
+	margin: 0;
+	display: none;
 }
