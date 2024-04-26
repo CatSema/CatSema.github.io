@@ -51,6 +51,8 @@
 
 	<script>
 		let tg = window.Telegram.WebApp //получаем объект webapp телеграма
+		window.Telegram.WebApp.ready()
+		window.Telegram.WebApp.BackButton.hide()
 		tg.expand() //расширяем на все окно
 	</script>
 </html>
