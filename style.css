@@ -10,6 +10,11 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	margin: 0;
+	padding: 20px;
+}
+
 main {
 	padding: 20px;
 }
@@ -77,17 +82,6 @@ main {
 	padding: 0px;
 	border-radius: 20px;
 	background-image: url('img/background/nft_.png');
-	background-size: cover;
-}
-
-.category-static {
-	font-size: 28px;
-	text-decoration: none;
-	color: #f0f0f0;
-	display: block;
-	padding: 0px;
-	border-radius: 20px;
-	background-image: url('img/background/ivan_durnev_gameverse_poster_big.webp');
 	background-size: cover;
 }
 

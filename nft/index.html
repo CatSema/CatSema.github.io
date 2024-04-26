@@ -10,7 +10,7 @@
 			name="description"
 			content="CoinWay – your companion in the blockchain universe!"
 		/>
-		<title>CoinWay</title>
+		<title>NFT | CoinWay</title>
 		<link rel="icon" href="/favicon.ico" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="https://telegram.org/js/telegram-web-app.js"></script>
@@ -25,31 +25,15 @@
 	<body>
 		<main>
 			<section class="categories">
-				<h2>Категории</h2>
+				<h2>NFT</h2>
 				<div class="category-grid">
-					<a href="clicks/" class="category-clicks">
+					<a
+						href="https://t.me/cube_worlds_bot?start=721869889"
+						class="category"
+						style="background-image: url('/img/icons/nft/cube-worlds.jpg')"
+					>
 						<div class="category-backgraund">
-							<h3>Clicks</h3>
-						</div>
-					</a>
-					<a href="airdrop/" class="category-airdrop">
-						<div class="category-backgraund">
-							<h3>AirDrop</h3>
-						</div>
-					</a>
-					<a href="games/" class="category-games">
-						<div class="category-backgraund">
-							<h3>Games</h3>
-						</div>
-					</a>
-					<a href="miners/" class="category-miners">
-						<div class="category-backgraund">
-							<h3>Miners</h3>
-						</div>
-					</a>
-					<a href="nft/" class="category-nft">
-						<div class="category-backgraund">
-							<h3>NFT</h3>
+							<h3>Gatto</h3>
 						</div>
 					</a>
 				</div>
@@ -60,7 +44,10 @@
 	<script>
 		let tg = window.Telegram.WebApp //получаем объект webapp телеграма
 		window.Telegram.WebApp.ready()
-		window.Telegram.WebApp.BackButton.hide()
+		window.Telegram.WebApp.BackButton.show()
+		window.Telegram.WebApp.BackButton.onClick(function () {
+			window.location.href = '/'
+		})
 		tg.expand() //расширяем на все окно
 	</script>
 </html>
