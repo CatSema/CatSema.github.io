@@ -7,3 +7,8 @@ cards.forEach(card => {
 		// Вы можете добавить сюда нужный функционал, например, переход на другую страницу
 	})
 })
+
+window.addEventListener('load', function () {
+	var preloader = document.getElementById('preloader')
+	preloader.style.display = 'none'
+})
