@@ -88,6 +88,10 @@ main {
 	gap: 20px;
 }
 
+.category-grid a {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .category {
 	text-decoration: none;
 	display: block;

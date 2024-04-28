@@ -30,6 +30,10 @@ main {
 	gap: 20px;
 }
 
+.category-grid a {
+	-webkit-tap-highlight-color: transparent;
+}
+
 .category {
 	border: 1px solid #ccc;
 	text-decoration: none;
