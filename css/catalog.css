@@ -31,21 +31,12 @@ main {
 }
 
 .category {
-	font-size: 24px;
+	border: 1px solid #ccc;
 	text-decoration: none;
-	color: #f0f0f0;
 	display: block;
 	padding: 0px;
 	border-radius: 20px;
 	background-size: cover;
-}
-
-.category-background {
-	border: 1px solid #ccc;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: inherit;
 	aspect-ratio: 1 / 1;
 }
 

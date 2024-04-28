@@ -88,76 +88,20 @@ main {
 	gap: 20px;
 }
 
-.category-clicks {
-	font-size: 28px;
+.category {
 	text-decoration: none;
-	color: #f0f0f0;
 	display: block;
 	padding: 0px;
 	border-radius: 20px;
-	background-image: url('img/background/clicks_.png');
 	background-size: cover;
+	aspect-ratio: 17 / 9;
 }
 
-.category-games {
-	font-size: 28px;
-	text-decoration: none;
-	color: #f0f0f0;
-	display: block;
-	padding: 0px;
-	border-radius: 20px;
-	background-image: url('img/background/games_.png');
-	background-size: cover;
-}
-
-.category-airdrop {
-	font-size: 28px;
-	text-decoration: none;
-	color: #f0f0f0;
-	display: block;
-	padding: 0px;
-	border-radius: 20px;
-	background-image: url('img/background/air_.png');
-	background-size: cover;
-}
-
-.category-miners {
-	font-size: 28px;
-	text-decoration: none;
-	color: #f0f0f0;
-	display: block;
-	padding: 0px;
-	border-radius: 20px;
-	background-image: url('img/background/miners_.png');
-	background-size: cover;
-}
-
-.category-nft {
-	font-size: 28px;
-	text-decoration: none;
-	color: #f0f0f0;
-	display: block;
-	padding: 0px;
-	border-radius: 20px;
-	background-image: url('img/background/nft_.png');
-	background-size: cover;
-}
-
-.category-background {
-	border: 1px solid #ccc;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: inherit;
-	background-color: rgba(255, 255, 255, 0.01);
-	aspect-ratio: 16 / 9;
-}
-
-.category-background:hover {
+.category:hover {
 	transform: scale(1.02);
 }
 
-.category-background:active {
+.category:active {
 	transform: scale(0.95);
 }
 
