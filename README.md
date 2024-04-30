@@ -1,2 +1,2 @@
-#  catsema.github.io
-My Site
+#  coinway.github.io
+Mini App Telegram - CoinWay
