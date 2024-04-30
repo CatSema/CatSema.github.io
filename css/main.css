@@ -79,7 +79,7 @@ nav div {
 	border-radius: 100px;
 	font-size: 14px;
 	color: var(--tg-theme-text-color);
-	background-color: var(--tg-theme-accent-text-color, #383838);
+	background-color: var(--tg-theme-accent-text-color);
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
