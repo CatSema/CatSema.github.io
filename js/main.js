@@ -6,7 +6,7 @@ window.addEventListener('load', function () {
 const filterProjects = document.querySelectorAll('.project')
 
 document.querySelector('nav').addEventListener('click', event => {
-	if (event.target.tagName !== 'LI') return false
+	if (event.target.tagName !== 'DIV') return false
 
 	let filterClass = event.target.dataset['f']
 
