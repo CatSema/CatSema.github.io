@@ -1,8 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--tg-theme-text-color);
-	/* background-color: var(--tg-theme-header-bg-color); */
-	background-color: var(--tg-theme-secondary-bg-color, #cea534);
+	background-color: var(--tg-theme-secondary-bg-color, #101010);
 	margin: 0;
 	padding: 0;
 }
@@ -79,12 +78,9 @@ nav div {
 	padding: 10px 12px;
 	font-size: 14px;
 	cursor: pointer;
-	/* background-color: #ffcc41; */
-	background-color: var(--tg-theme-accent-text-color, #ffcc41);
+	background-color: var(--tg-theme-accent-text-color, #383838);
 	border-radius: 100px;
 	display: inline-flex;
-	/* flex-direction: column; */
-	/* align-items: center; */
 }
 
 h1 {
@@ -106,14 +102,14 @@ main {
 }
 
 .projects-background {
-	background-color: var(--tg-theme-bg-color, #ffcc41);
+	background-color: var(--tg-theme-bg-color, #222222);
 	border-radius: 28px;
 	padding: 15px;
 }
 
 .project-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	gap: 20px;
 }
 
@@ -122,7 +118,7 @@ main {
 }
 
 .project {
-	border: 1px solid #ccc;
+	border: 1px solid var(--tg-theme-accent-text-color, #ccc);
 	text-decoration: none;
 	display: block;
 	padding: 0px;
