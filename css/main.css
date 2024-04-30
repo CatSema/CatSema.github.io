@@ -78,8 +78,8 @@ nav div {
 	padding: 10px 12px;
 	border-radius: 100px;
 	font-size: 14px;
-	color: var(--tg-theme-text-color);
-	background-color: var(--tg-theme-accent-text-color);
+	color: var(--tg-theme-button-text-color);
+	background-color: var(--tg-theme-button-color);
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
