@@ -2,7 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--tg-theme-text-color);
 	/* background-color: var(--tg-theme-header-bg-color); */
-	background-color: var(--tg-theme-secondary-bg-color);
+	background-color: var(--tg-theme-secondary-bg-color, #cea534);
 	margin: 0;
 	padding: 0;
 }
@@ -80,7 +80,7 @@ nav div {
 	font-size: 14px;
 	cursor: pointer;
 	/* background-color: #ffcc41; */
-	background-color: var(--tg-theme-accent-text-color);
+	background-color: var(--tg-theme-accent-text-color, #ffcc41);
 	border-radius: 100px;
 	display: inline-flex;
 	/* flex-direction: column; */
@@ -97,7 +97,7 @@ h2 {
 }
 
 main {
-	padding: 10px;
+	padding: 15px;
 }
 
 .projects {
@@ -106,14 +106,14 @@ main {
 }
 
 .projects-background {
-	background-color: var(--tg-theme-bg-color);
+	background-color: var(--tg-theme-bg-color, #ffcc41);
 	border-radius: 28px;
-	padding: 10px;
+	padding: 15px;
 }
 
 .project-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(104px, 1fr));
 	gap: 20px;
 }
 
