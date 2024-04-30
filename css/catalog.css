@@ -51,8 +51,3 @@ main {
 .category:active {
 	transform: scale(0.95);
 }
-
-.category h3 {
-	display: none;
-	margin: 0;
-}

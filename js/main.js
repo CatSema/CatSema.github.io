@@ -3,12 +3,17 @@ window.addEventListener('load', function () {
 	preloader.style.display = 'none'
 })
 
-const cards = document.querySelectorAll('.card')
+const filterProjects = document.querySelectorAll('.project')
 
-cards.forEach(card => {
-	card.addEventListener('click', () => {
-		// Обработчик клика по карточке
-		console.log('Карточка нажата!')
-		// Вы можете добавить сюда нужный функционал, например, переход на другую страницу
+document.querySelector('nav').addEventListener('click', event => {
+	if (event.target.tagName !== 'LI') return false
+
+	let filterClass = event.target.dataset['f']
+
+	filterProjects.forEach(elem => {
+		elem.classList.remove('hide')
+		if (!elem.classList.contains(filterClass) && filterClass !== 'all') {
+			elem.classList.add('hide')
+		}
 	})
 })
