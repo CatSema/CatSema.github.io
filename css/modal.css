@@ -74,7 +74,7 @@
 
 .itc-modal-btn-close {
   float: right;
-  color: var(--tg-theme-button-text-color);
+  color: var(--tg-theme-button-color);
   font-weight: 700;
   font-size: 24px;
   font-family: sans-serif;
@@ -86,7 +86,7 @@
 
 .itc-modal-btn-close:focus,
 .itc-modal-btn-close:hover {
-  color: var(--tg-theme-button-text-color);
+  color: var(--tg-theme-button-color);
   text-decoration: none;
   cursor: pointer;
   opacity: 0.75;
