@@ -149,6 +149,33 @@ body {
 	display: inline-flex;
 }
 
+.modal-project-social {
+	display: none;
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	/* position: absolute; */
+	/* bottom: 0; */
+	/* flex: 0 0 auto; */
+}
+
+.modal-project-social-telegram,
+.modal-project-social-discord,
+.modal-project-social-x,
+.modal-project-social-web {
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 100px;
+	font-size: 14px;
+	color: var(--tg-theme-button-text-color);
+	background-color: var(--tg-theme-button-color, #938F99);
+	-webkit-tap-highlight-color: transparent;
+	display: inline-flex;
+}
+
 h1 {
 	margin: 0;
 }
