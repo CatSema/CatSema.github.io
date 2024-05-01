@@ -68,18 +68,15 @@ body {
 	margin-bottom: 10px;
 }
 
-/* .nav {
-	justify-content: flex-start;
-	align-items: left;
-} */
-
-nav div {
+.project-filter div {
 	margin: 5px;
-	padding: 10px 12px;
+	width: 49px;
+	padding: 9px 12px;
 	border-radius: 100px;
-	font-size: 14px;
+	font-size: 13px;
+	justify-content: center;
 	color: var(--tg-theme-button-text-color);
-	background-color: var(--tg-theme-button-color);
+	background-color: var(--tg-theme-button-color, #938F99);
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
@@ -88,21 +85,58 @@ nav div {
 .modal-project-info {
 	margin-top: 25px;
 	display: flex;
+	align-items: center;
 	justify-content: center;
 }
 
-.modal-project-info a {
+.modal-project-info-more {
 	width: 120px;
 	margin: 5px;
 	display: flex;
 	justify-content: center;
 	text-decoration: none;
-	padding: 10px 12px;
+	padding: 10px 24px;
+	border-radius: 100px;
+	font-size: 14px;
+	color: var(--tg-theme-button-color);
+	border: 1px solid var(--tg-theme-button-color, #938F99);
+	-webkit-tap-highlight-color: transparent;
+	display: inline-flex;
+}
+
+.modal-project-info-open {
+	width: 120px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px 24px;
 	border-radius: 100px;
 	font-size: 14px;
 	color: var(--tg-theme-button-text-color);
-	background-color: var(--tg-theme-button-color);
-	/* background-color: #949494; */
+	background-color: var(--tg-theme-button-color, #938F99);
+	-webkit-tap-highlight-color: transparent;
+	display: inline-flex;
+}
+
+.modal-project-youtube {
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-project-youtube-open {
+	width: 120px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	padding: 10px 24px;
+	border-radius: 100px;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: var(--tg-theme-button-color, #ff0000);
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
 }
