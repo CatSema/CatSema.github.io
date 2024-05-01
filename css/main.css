@@ -73,7 +73,19 @@ body {
 	align-items: left;
 } */
 
-nav div a {
+nav div {
+	margin: 5px;
+	padding: 10px 12px;
+	border-radius: 100px;
+	font-size: 14px;
+	color: var(--tg-theme-button-text-color);
+	background-color: var(--tg-theme-button-color);
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	display: inline-flex;
+}
+
+nav a {
 	margin: 5px;
 	padding: 10px 12px;
 	border-radius: 100px;
