@@ -73,7 +73,7 @@ body {
 	align-items: left;
 } */
 
-nav div {
+nav div a {
 	margin: 5px;
 	padding: 10px 12px;
 	border-radius: 100px;
