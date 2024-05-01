@@ -64,7 +64,7 @@ body {
 	animation-delay: 0.3s;
 }
 
-.container {
+.project-filter {
 	margin-bottom: 10px;
 }
 
@@ -85,15 +85,24 @@ nav div {
 	display: inline-flex;
 }
 
-nav a {
+.modal-project-info {
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.modal-project-info a {
+	width: 120px;
 	margin: 5px;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
 	padding: 10px 12px;
 	border-radius: 100px;
 	font-size: 14px;
-	text-decoration: none;
 	color: var(--tg-theme-button-text-color);
 	background-color: var(--tg-theme-button-color);
-	cursor: pointer;
+	/* background-color: #949494; */
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
 }

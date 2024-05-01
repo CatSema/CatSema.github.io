@@ -30,7 +30,7 @@
 		<section class="projects">
 			<h2>Projects</h2>
 			<div class="projects-background">
-				<div class="container">
+				<div class="project-filter">
 					<nav>
 						<div data-f="all">All</div>
 						<div data-f="clicks">Clicks</div>
@@ -41,17 +41,20 @@
 					</nav>
 				</div>
 				<div class="project-grid">
-					<a href="https://t.me/tiger_drop_bot?start=r721869889" class="project airdrop"
-						style="background-image: url('/img/icons/airdrop/tiger-drop.jpg')" data-toggle="modal"
-						data-title="Tiger Drop" data-content='<div class="projects-background">
+					<div class="project airdrop" style="background-image: url('/img/icons/airdrop/tiger-drop.jpg')"
+						data-toggle="modal" data-title="Tiger Drop" data-content='<div class="projects-background">
 							<div>Меньше двух часов назад, как создатель одних из старейших NFT-коллекций на TON (PixelGod) запустил раздачу
 								нового мемкоина.</div>
-							<div>
-								<nav>
-									<a href="https://t.me/tiger_drop_bot?start=r721869889">Подробнее</a>
-								</nav>
+							<div class="modal-project-info">
+								<a href="https://t.me/tiger_drop_bot?start=r721869889">Подробнее</a>
+								<a href="https://t.me/tiger_drop_bot?start=r721869889">Открыть</a>
 							</div>
-						</div>'></a>
+						</div>
+						<div>
+							<div class="modal-project-info">
+								<a href="https://t.me/tiger_drop_bot?start=r721869889">Открыть</a>
+							</div>
+						</div>'></div>
 					<a href="https://t.me/tiger_drop_bot?start=r721869889" class="project airdrop"
 						style="background-image: url('/img/icons/airdrop/tiger-drop.jpg')"></a>
 					<a href="https://t.me/TonApe_bot?start=721869889" class="project airdrop"
@@ -179,11 +182,11 @@
 	const modal = new ItcModal()
 	// При клике на ссылку
 	document.addEventListener('click', (e) => {
-		const link = e.target.closest('a[data-toggle="modal"]')
-		if (link) {
-			e.preventDefault() // Предотвратить переход по ссылке
-			modal.setTitle(link.dataset.title)
-			modal.setBody(link.dataset.content)
+		const div = e.target.closest('.project[data-toggle="modal"]')
+		if (div) {
+			// e.preventDefault() // Предотвратить переход по ссылке
+			modal.setTitle(div.dataset.title)
+			modal.setBody(div.dataset.content)
 			modal.show()
 		}
 	});
