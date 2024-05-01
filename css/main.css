@@ -90,6 +90,7 @@ nav a {
 	padding: 10px 12px;
 	border-radius: 100px;
 	font-size: 14px;
+	text-decoration: none;
 	color: var(--tg-theme-button-text-color);
 	background-color: var(--tg-theme-button-color);
 	cursor: pointer;
