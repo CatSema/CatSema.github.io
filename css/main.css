@@ -90,6 +90,13 @@ body {
 	transform: scale(0.95);
 }
 
+.modal-project-description {
+	height: 180px;
+	width: auto;
+	margin-top: 3px;
+	/* background-color: #474747; */
+}
+
 .modal-project-info {
 	margin-top: 25px;
 	display: flex;
@@ -144,19 +151,16 @@ body {
 	border-radius: 100px;
 	font-size: 14px;
 	color: #ffffff;
-	background-color: #ff0000;
+	background-color: #fd1d1d;
 	-webkit-tap-highlight-color: transparent;
 	display: inline-flex;
 }
 
 .modal-project-social {
-	display: none;
-	/* display: flex; */
+	margin-top: 20%;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* position: absolute; */
-	/* bottom: 0; */
-	/* flex: 0 0 auto; */
 }
 
 .modal-project-social-telegram,
@@ -166,14 +170,34 @@ body {
 	margin: 5px;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	text-decoration: none;
-	padding: 10px 10px;
+	height: 45px;
+	width: 45px;
 	border-radius: 100px;
 	font-size: 14px;
-	color: var(--tg-theme-button-text-color);
-	background-color: var(--tg-theme-button-color, #938F99);
 	-webkit-tap-highlight-color: transparent;
-	display: inline-flex;
+}
+
+.modal-project-social-telegram {
+	background-color: #30a3e6;
+}
+
+.modal-project-social-discord {
+	background-color: #5865f2;
+}
+
+.modal-project-social-x {
+	background-color: #000000;
+}
+
+.modal-project-social-web {
+	background-color: #adadad;
+}
+
+.icon {
+	height: 25px;
+	width: auto;
 }
 
 h1 {
