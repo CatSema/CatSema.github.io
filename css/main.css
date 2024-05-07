@@ -200,6 +200,33 @@ body {
 	width: auto;
 }
 
+.container-menu {
+	position: relative;
+}
+
+.menu-box {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	margin: 0;
+	padding: 30px;
+	background: #fff;
+	box-sizing: border-box;
+	border-top: 1px solid rgba(0, 0, 0, 0.3);
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	list-style: none;
+}
+
+.menu-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 20px;
+	border-radius: 16px;
+	cursor: pointer;
+}
+
 h1 {
 	margin: 0;
 }
@@ -209,16 +236,21 @@ h2 {
 	padding: 20px;
 }
 
-main {
+.projects-page,
+.play-page,
+.study-page,
+.tools-page,
+.profile-page {
 	padding: 15px;
-}
-
-.projects {
 	font-size: 24px;
 	text-align: center;
 }
 
-.projects-background {
+.projects-page-background,
+.play-page-background,
+.study-page-background,
+.tools-page-background,
+.profile-page-background {
 	background-color: var(--tg-theme-bg-color);
 	border-radius: 28px;
 	padding: 15px;
